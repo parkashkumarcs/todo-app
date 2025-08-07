@@ -1,8 +1,11 @@
-import React from 'react'
+// Importing here react libraries, css files, components and extra rss:)
+import Todo from "./components/Todo"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Todo />
+    </div>
   )
 }
 

@@ -1,5 +1,7 @@
 // Importing the react libraries, css files, and other components
 
+import './todoStyle.css'
+
 const Todo = () => {
   return (
     <div className="todo__Container">

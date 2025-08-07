@@ -1,0 +1,21 @@
+
+body{
+    background-image: url('../assets/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.todo__Container{
+    width: 70%;
+    min-height: 580px;
+   /* border: .2rem solid red;  Just for observation to check whether alignment is okay or not  */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(hsl(240, 95%, 35%), hsl(310, 91%, 26%));
+    border-radius: 20px;
+
+}

@@ -8,7 +8,7 @@ body{
 
 .todo__Container{
     width: 70%;
-    min-height: 568px;
+    min-height: 560px;
    /* border: .2rem solid red;  Just for observation to check whether alignment is okay or not  */
     margin: 0 auto;
     display: flex;
@@ -59,4 +59,28 @@ body{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     cursor: pointer;
+}
+.display__Todo-list{
+    width: 97%;
+    margin-top: 20px;
+    background-color: rgba(255, 0, 242, 0.219);
+    border-radius: 10px;
+    max-height: 55vh;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.display__Todo-list ul{
+    column-count: 2;
+    column-gap: 2px;
+}
+.display__Todo-list ul li{
+    list-style: none;
+    /* border: .1rem solid blue; */
+    width: 87%;
+    background-color: green;
+    color: aliceblue;
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
 }

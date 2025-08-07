@@ -1,8 +1,10 @@
 // Importing the react libraries, css files, and other components
 
 import './todoStyle.css'
+import { useState } from 'react';
 
 const Todo = () => {
+    const [inputValue, setInput] = useState('');
   return (
     <div className="todo__Container">
       <h1 className="heading__1">
@@ -13,6 +15,7 @@ const Todo = () => {
         <input 
             type="text" 
             placeholder='Write your new task?'
+            onChange={e => setInput(e.target.value)}
         
         />
         <span>

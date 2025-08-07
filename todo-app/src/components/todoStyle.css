@@ -8,7 +8,7 @@ body{
 
 .todo__Container{
     width: 70%;
-    min-height: 580px;
+    min-height: 568px;
    /* border: .2rem solid red;  Just for observation to check whether alignment is okay or not  */
     margin: 0 auto;
     display: flex;
@@ -17,5 +17,46 @@ body{
     align-items: center;
     background: linear-gradient(hsl(240, 95%, 35%), hsl(310, 91%, 26%));
     border-radius: 20px;
+    padding: .5rem;
 
+}
+.heading__1{
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.do{
+    color: rgb(255, 0, 191);
+}
+.faq__title{
+    font-size: 30px;
+    color: aliceblue;
+}
+.input__Container{
+    display: flex;
+}
+.input__Container input{
+    font-size: 16px;
+    padding: 5px;
+    width: 300px;
+    border-bottom: .1rem solid rgb(255, 0, 242);
+    border-top: .1rem solid rgb(255, 0, 242);
+    border-left: .1rem solid rgb(255, 0, 242);
+    border-right: .1rem solid rgb(255, 0, 242);
+    background-color: rgba(0, 0, 255, 0);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.input__Container button{
+    font-size: 18px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.925);
+    background-color: rgb(255, 0, 242);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
 }

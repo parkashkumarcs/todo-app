@@ -48,6 +48,7 @@ body{
     border-bottom-left-radius: 5px;
     color: rgb(255, 255, 255);
     font-family:'Times New Roman', Times, serif;
+    outline: none;
     
 }
 .input__Container button{
@@ -85,4 +86,26 @@ body{
     padding: 10px;
     text-align: left;
     border-radius: 5px;
+    position: relative;
+}
+.remove__Icon{
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.edit__Icon{
+    font-size: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.edit__Icon:hover{
+    color: green;
+    scale: 1.01;
+}
+.remove__Icon:hover{
+    color: red;
+}
+.right__Align{
+    position: absolute;
+    right: 0;
 }
